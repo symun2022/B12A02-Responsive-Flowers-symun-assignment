@@ -46,6 +46,7 @@
     color: white;
     border: none;
 }
+
 /* banner styles */
 .banner-container{
     width: 1140px;
@@ -85,6 +86,26 @@
 .banner-title{
     font-weight: 600px;
     font-size: 27px;
+}
+.flower-plant-lover{
+    margin-top: 160px;
+}
+.flower-plant-container{
+    width: 1140px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    align-items: center;
+    
+}
+.lover-container{
+    width: 514px;
+    height: 521px;
+    justify-content: center;
+}
+.lover-title{
+    font-weight: 600;
+    font-size: 3rem;
 }
 
 .deals-banner{
