@@ -203,3 +203,36 @@ input[type=text]{
     border: none;
     margin-left: -5px;
 }
+.footer-container{
+    width: 1120px;
+    height: 248px;
+    margin: 0 auto;
+    display: flex;
+}
+.about{
+    width: 359px;
+    height: 169px;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+.footer-menue{
+    display: flex;
+    gap: 110px;
+}
+.footer-menue  ul li{
+    list-style: none;
+    
+}
+.footer-menue  ul li a{
+    text-decoration: none;
+    margin-top: 5px;
+}
+/* .social-link ul{
+    display: flex;
+    justify-content: end;
+} */
+.social-link ul li{
+    display: inline;
+    margin-left: 10px;
+    
+}
