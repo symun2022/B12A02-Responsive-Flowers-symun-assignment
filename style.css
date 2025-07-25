@@ -144,6 +144,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 .deals-banner-2{
     width: 366px;
@@ -168,6 +169,20 @@
     justify-content: center;
     align-items: center;
     margin-left: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+    
+}
+.deals-cntent{
+    width: 285px;
+    
+    text-align: center;
+}
+.shop-now a{
+    color: white;
+    
+    
 }
 .deals-banner-left{
     display: grid;
