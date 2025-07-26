@@ -107,6 +107,10 @@
     font-weight: 600;
     font-size: 3rem;
 }
+
+
+    
+
 /* latest deal styles */
 .deals-container{
     width: 1140px;
@@ -250,4 +254,22 @@ input[type=text]{
     display: inline;
     margin-left: 10px;
     
+}
+
+
+@media screen and (max-width: 576px) {
+    .menue ul{
+        display: none;
+    }
+    .banner-image{
+        display: none;
+    }
+    .banner-container{
+        width: 551px;
+    }
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 100%;
+    }
 }
